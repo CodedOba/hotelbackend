@@ -4,7 +4,7 @@ import connectDB from "./config/database.js"
 import userRoute from "./routes/userRoute.js"
 import  propertyRouter  from "./routes/propertyRoute.js"
 import { roomRoute } from "./routes/roomRoute.js"
-import { bookingRoute } from "./routes/bookingroute.js"
+import { bookingRoute } from "./routes/bookingRoute.js"
 import { reviewRoute } from "./routes/reviewRoute.js"
 import { v2 as cloudinary } from "cloudinary";
 dotenv.config()
